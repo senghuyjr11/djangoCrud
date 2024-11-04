@@ -8,11 +8,15 @@ This is a simple Django application for managing a list of books, demonstrating 
 - Edit and update existing books.
 - Delete books with a confirmation alert.
 - Styled with Bootstrap 5 for a responsive and clean UI.
+- `db.sqlite3` The SQLite database file where all data is stored (generated after migrations).
 
 ## Requirements
 - Python 3.x
 - Django
 - django-bootstrap-v5
+
+## Database
+This project uses **SQLite** as the default database, which is set up automatically when you run migrations. SQLite is a lightweight, file-based database that's suitable for development and testing environments. By default, Django creates an SQLite database file named `db.sqlite3` in project directory.
 
 ## Installation
 1. **Clone the repository**:  
